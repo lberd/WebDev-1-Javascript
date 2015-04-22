@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Style Changes</title>
+  <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+  <script src="javaScript.js"></script>
+</head>
+
+<body>
+    <p id="instructions" class="style1">Listed below are two buttons.  Clicking on the style 2 button will change the style
+        of this paragraph to a different class, which each have unique settings, such as
+        color and font.  In the sections below this, we demonstrate changing each
+        characteristic of the text individually through the use of dropdown menus.  Use
+        these methods to customize the style of the text.  Try clicking style 2 and see
+        what happens.</p>
+
+    <button onclick="instructionClass1()">Style 1</button>
+    <button onclick="instructionClass2()">Style 2</button>
+
+    <p id="additionalInstruction" class="addNoShow">As you can see, by clicking the style 2 button the text in the above paragraph has
+        changed.  Now try changing the styles of the text listed below.</p>
+
+    <p id="p1">	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut	aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderi.
+    </p>
+
+    <select id="changeBorder">
+        <option value="thin">Thin</option>
+        <option value="medium">Medium</option>
+        <option value="thick">Thick</option>
+    </select>
+
+    <select id="changeFontFamily">
+        <option value="Arial">Arial</option>
+        <option value="Calibri">Calibri</option>
+        <option value="Times">Times</option>
+    </select>
+
+    <select id="changeMargins">
+        <option value="0">0 em</option>
+        <option value=".1">.1 em</option>
+        <option value=".5">.5 em</option>
+        <option value="1">1 em</option>
+    </select>
+
+    <select id="changePadding">
+        <option value=".2">.2 em</option>
+        <option value=".5">.5 em</option>
+        <option value="1">1 em</option>
+        <option value="2">2 em</option>
+    </select>
+
+    <ul id="ul1">
+        <li>Dogs</li>
+        <li>Cats</li>
+        <li>Birds</li>
+    </ul>
+
+    <select id="changeColor">
+        <option value="Black">Black</option>
+        <option value="Red">Red</option>
+    </select>
+
+    <select id="changeStyle">
+        <option value="Normal">Normal</option>
+        <option value="Italic">Italic</option>
+        <option value="Oblique">Oblique</option>
+    </select>
+
+    <select id="changeListStyle">
+        <option value="Disc">Disc</option>
+        <option value="Circle">Circle</option>
+        <option value="Square">Square</option>
+        <option value="Lower-Roman">Lower-Roman</option>
+    </select>
+
+    <select id="changeListStylePos">
+        <option value="Inside">Inside</option>
+        <option value="Outside">Outside</option>
+    </select>
+
+    <select id="changeFontWeight">
+        <option value="Normal">Normal</option>
+        <option value="Bold">Bold</option>
+        <option value="Bolder">Bolder</option>
+        <option value="Lighter">Lighter</option>
+    </select>
+
+</body>
+
+</html>
